@@ -13,7 +13,7 @@
 <body>
     
 <div class="container-fluid">
-<h1 class="text-center alert alert-danger">Python Flask CRUD Application</h1>
+<h1 class="text-center alert alert-danger">Python Flask BookStore Application</h1>
         <div class="row">
             <div class="col-sm-2"></div>
 
@@ -74,7 +74,7 @@
 
                         <div class="form-group">
                             <label>price</label>
-                            <input name="price" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter price Number">
+                            <input name="price" type="Number" class="form-control" id="exampleFormControlInput1" placeholder="Enter price Number">
                           </div>
 
                           <button type="submit" class="btn btn-primary mb-2">Save</button>
@@ -161,7 +161,7 @@
 
                               <div class="form-group">
                                 <label>price</label>
-                                <input value="{{row.5}}" name="price" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter price Number">
+                                <input value="{{row.5}}" name="price" type="Number" class="form-control" id="exampleFormControlInput1" placeholder="Enter price Number">
                               </div>
     
                               <button type="submit" class="btn btn-success mb-2">Update</button>
